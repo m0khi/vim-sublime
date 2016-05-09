@@ -32,6 +32,9 @@ colorscheme Monokai
 filetype plugin indent on
 let g:ycm_confirm_extra_conf = 0
 let g:ycm_global_ycm_extra_conf = "~/ycm_extra_conf.py"
+" let g:ycm_key_list_select_completion=[]
+" let g:ycm_key_list_previous_completion=[]
+" let g:ycm_python_binary_path = '/usr/local/bin/python'
 
 """"""""
 if has('autocmd')
@@ -69,11 +72,16 @@ set wildmenu
 set autoread
 
 set encoding=utf-8
+command HardIndent set tabstop=4 shiftwidth=4 softtabstop=0 noexpandtab
+command SoftIndent set tabstop=2 shiftwidth=2 expandtab
 " set tabstop=2 shiftwidth=2 expandtab
-set tabstop=4 shiftwidth=4 softtabstop=0 noexpandtab
+" set tabstop=4 shiftwidth=4 softtabstop=0 noexpandtab
 set listchars=tab:▒░,trail:▓
 set list
 
+SoftIndent
+
+map <C-I> mzgg=G`z
 inoremap <C-U> <C-G>u<C-U>
 
 set number
