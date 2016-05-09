@@ -1,6 +1,6 @@
 # Limo
 
-A ready to use minimal Vim (Sublime Text -like) .vimrc configuration
+A ready to use Vim (Sublime Text -like AND MORE) .vimrc configuration and set of Plugins
 
 ## Installation
 
