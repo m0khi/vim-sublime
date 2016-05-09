@@ -24,7 +24,7 @@ Then open `vim` and run
 
 `:PluginInstall`
 
-(Don't worry about the 'Monokai' error), quit and enter in `vim` again to apply the changes
+quit and enter in `vim` again to apply the changes
 
 You can also add machine specific config to `~/.local.vim`
 
@@ -69,7 +69,19 @@ of the line and press <kbd>d</kbd>.
 
 ## Author
 
-Luigi Maselli - http://grigio.org
+Mahdi Mokhtari
+
+## Credits
+
+Luigi Masell	- http://grigio.org
+
+Val Markovi	- https://val.markovic.io/
+
+Vundle devels	- https://github.com/VundleVim
+
+Vim devels :)
+
+All bodies developed parts of plugins, fonts, ...
 
 If You use Macvim see also [subvim](https://github.com/fatih/subvim), another Sublime Text for VIM project
 
