@@ -14,7 +14,7 @@ Install *Limo* `.vimrc`
 
 `$ curl https://raw.githubusercontent.com/m0khi/vim-sublime/m0khi-features/vimrc > $HOME/.vimrc`
 
-Install *Limo* `.ycm_extra_conf.py`
+Install *Limo* `ycm_extra_conf.py`
 
 `$ curl https://raw.githubusercontent.com/m0khi/vim-sublime/m0khi-features/ycm_extra_conf.py > $HOME/ycm_extra_conf.py`
 
