@@ -1,24 +1,22 @@
-# Vim sublime
+# Limo
 
 A ready to use minimal Vim (Sublime Text -like) .vimrc configuration
 
-![](vim-sublime.gif)
-
-<p align="center">
-	(<a href="https://github.com/grigio/vim-sublime/raw/master/vim-sublime.gif">Play Video</a>)
-</p>
-
 ## Installation
 
-*vim-sublime* includes [Vundle](https://github.com/VundleVim/Vundle.vim) package manager and some external plugins.
+*Limo* includes [Vundle](https://github.com/VundleVim/Vundle.vim) package manager and some external plugins.
 
 Install Vundle
 
 `$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 
-Install *vim-sublime* `.vimrc`
+Install *Limo* `.vimrc`
 
-`$ curl https://raw.githubusercontent.com/grigio/vim-sublime/master/vimrc > $HOME/.vimrc`
+`$ curl https://raw.githubusercontent.com/m0khi/vim-sublime/m0khi-features/vimrc > $HOME/.vimrc`
+
+Install *Limo* `.ycm_extra_conf.py`
+
+`$ curl https://raw.githubusercontent.com/m0khi/vim-sublime/m0khi-features/ycm_extra_conf.py > $HOME/.ycm_extra_conf.py`
 
 Then open `vim` and run
 
@@ -67,6 +65,8 @@ of the line and press <kbd>d</kbd>.
 - <kbd>Ctrl</kbd> + <kbd>b</kbd> - Previous tab
 - <kbd>Ctrl</kbd> + <kbd>n</kbd> - Next tab
 
+*AutoComplete*
+
 ## Author
 
 Mahdi Mokhtari
@@ -82,6 +82,3 @@ Vundle devels	- https://github.com/VundleVim
 Vim devels :)
 
 All bodies developed parts of plugins, fonts, ...
-
-If You use Macvim see also [subvim](https://github.com/fatih/subvim), another Sublime Text for VIM project
-
