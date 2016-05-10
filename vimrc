@@ -73,7 +73,7 @@ set autoread
 
 set encoding=utf-8
 command HardIndent set tabstop=4 shiftwidth=4 softtabstop=0 noexpandtab
-command SoftIndent set tabstop=2 shiftwidth=2 expandtab
+command SoftIndent set tabstop=4 shiftwidth=4 expandtab
 " set tabstop=2 shiftwidth=2 expandtab
 " set tabstop=4 shiftwidth=4 softtabstop=0 noexpandtab
 set listchars=tab:▒░,trail:▓
